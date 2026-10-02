@@ -67,7 +67,7 @@ app.post("/api/relay/pulse", auth, (req, res) => {
   command = {
     id: lastCommandId,
     action: "pulse",
-    duration: 500,
+    duration: 2500,
     createdAt: new Date().toISOString()
   };
 
